@@ -9,6 +9,7 @@ export type resultType = {
   accessToken?: string;
 };
 
+//接口请求方式类型
 export type RequestMethods = Extract<
   Method,
   "get" | "post" | "put" | "delete" | "patch" | "option" | "head"
@@ -29,7 +30,7 @@ export interface PureHttpRequestConfig extends AxiosRequestConfig {
 
 export default class PureHttp {
   request<T>(
-    method: RequestMethods,
+    //method: RequestMethods,
     url: string,
     param?: AxiosRequestConfig,
     axiosConfig?: PureHttpRequestConfig

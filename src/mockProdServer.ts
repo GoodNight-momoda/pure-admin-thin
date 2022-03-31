@@ -4,5 +4,5 @@ import asyncRoutesMock from "../mock/asyncRoutes";
 export const mockModules = [...asyncRoutesMock];
 
 export function setupProdMockServer() {
-  createProdMockServer(mockModules);
+    createProdMockServer(mockModules);
 }

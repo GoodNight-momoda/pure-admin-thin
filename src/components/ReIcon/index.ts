@@ -7,7 +7,7 @@ export const IconifyIconOnline = iconifyIconOnline;
 export const FontIcon = fontIcon;
 
 export default {
-  IconifyIconOffline,
-  IconifyIconOnline,
-  FontIcon
+    IconifyIconOffline,
+    IconifyIconOnline,
+    FontIcon,
 };
